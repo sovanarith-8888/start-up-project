@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { Providers } from "./providers";
+import "@/app/globals.css";
+import { Providers } from "@/app/providers";
+import { inter,suwannaphum } from "@/app/fonts";
 
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +20,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="favicon.svg" sizes="32x32" type="image/x-icon" />
       </head>
-      <body className={inter.className}>
+      <body className={` ${inter.variable}  ${suwannaphum.variable} `}>
         <Providers>
           {children}
         </Providers>

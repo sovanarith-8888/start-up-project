@@ -1,8 +1,10 @@
+
 import type { Metadata } from "next";
 import "@/app/globals.css";
 import { Providers } from "@/app/providers";
 import { inter,suwannaphum } from "@/app/fonts";
 import { DASHBOARD_META_DESCRIPTION } from "@/lib/constants";
+import { uiBall } from '@/components/animation/uiball';
 
 
 export const metadata: Metadata = {
@@ -30,6 +32,7 @@ export default function RootLayout({
       <body className={` ${inter.variable}  ${suwannaphum.variable} `}>
         <Providers>
           {children}
+          
         </Providers>
       </body>
     </html>

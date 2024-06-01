@@ -1,0 +1,6 @@
+User-Agent: * 
+Allow: /
+Disallow: /private/ 
+Disallow: /dashboard/
+
+Sitemap: https://start-up-project-nu.vercel.app/

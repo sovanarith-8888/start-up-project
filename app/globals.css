@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 *{
   padding: 0;
   margin: 0;
@@ -10,6 +11,7 @@ html{
   font-size: 62.5%;
 }
 body{
+  font-family: var(--font-inter), var(--font-suwannaphum) !important;
   font-size: 1.3rem;
   letter-spacing: 0.11rem;
   line-height: 1.5;

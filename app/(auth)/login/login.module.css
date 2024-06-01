@@ -1,0 +1,20 @@
+.main{
+  @apply flex flex-col justify-start  items-center min-h-full h-[100vh]
+  bg-[#fefffe] pt-32;
+}
+.containerGlass{
+  width: 32%;
+  /* From https://css.glass */
+  background: rgba(182, 240, 250, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.3px);
+  -webkit-backdrop-filter: blur(1.3px);
+  /* border: 1px solid rgba(13, 163, 189, 1); */
+
+  @apply  p-6 flex flex-col justify-center content-center items-center gap-[12px]
+    mt-8;
+}
+.textCenter{
+  @apply text-center
+}

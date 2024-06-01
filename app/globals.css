@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.3rem;
+  letter-spacing: 0.11rem;
+  line-height: 1.5;
+}
+h1{
+  font-size: 3.2rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.4rem;
+  color: #52525B;
+}
+
+/* Modified Input */
+div.relative{
+  /* main */
+  height: auto;
+  gap: 10px;
+  border: 1px solid rgba(13, 163, 189, 1);
+  border-radius: 6px;
+}
+div.relative input{
+  color: #053B48;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+::placeholder{
+  color: #71717A !important;
+}
+label.absolute{
+  font-size: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #27272A !important;
+}

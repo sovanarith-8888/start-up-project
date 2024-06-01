@@ -4,7 +4,7 @@ import  { svgRepo }  from "@/components/icons/svgrepo";
 
 import {Button} from '@nextui-org/button'; 
 import {uiBall} from '../components/animation/uiball';
-
+import "@/app/globals.css"
 
 
 export default function Home() {
